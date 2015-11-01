@@ -1,0 +1,22 @@
+{
+  "name"           : "firescrum",
+  "private"        : true,
+  "version"        : "0.0.1",
+  "description"    : "FireScrum : outils scrum",
+  "devDependencies": {
+    "bower"                : "^1.6.5",
+    "express"              : "^4.8.5",
+    "gulp"                 : "^3.8.8",
+    "gulp-angular-filesort": "^1.1.1",
+    "gulp-inject"          : "^3.0.0",
+    "gulp-util"            : "^3.0.0",
+    "http-server"          : "^0.6.1"
+  },
+  "scripts"        : {
+    "poststart": "bower install",
+    "prestart" : "npm install",
+    "start"    : "gulp"
+  },
+  "author": "Julien Blandineau",
+  "license": "MIT"
+}
